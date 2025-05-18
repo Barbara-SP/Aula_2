@@ -1,0 +1,137 @@
+/*LIMPAR FORMATAÇÕES*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*FORMATAÇÕES GERAIS*/
+body{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(17, 46, 73, 0.411);
+}
+
+h1{
+    color: #252525;
+    font-size: 40px;
+}
+
+h2{
+    color: #252525;
+}
+
+h3{
+    color: #252525;
+    background: rgba(17, 46, 73, 0.411);
+}
+
+/*HEADER*/
+
+#header{
+    background-color: rgba(17, 46, 73, 0.859);
+    padding: 15px;
+    text-align: center;
+}
+#logo, #menu{
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{
+    color: rgb(223, 236, 247);
+    padding: 8px 12px;
+}
+
+#header a:hover {
+    color: rgb(20, 42, 62);
+    background: #ffff;
+    text-decoration: none;
+}
+
+.white{
+    color: #ffff;
+}
+
+/*CONTEÚDO*/
+
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts{
+    width: 660px;
+    float: left;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffff;
+    text-align: justify;
+}
+
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid rgb(20, 42, 62);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-post{
+    width: 620px;
+}
+
+/*LADO DIREITO*/
+
+#right-side{
+    width: 240px;
+    position: fixed;
+    top: 215px;
+    right: calc((100% - 920px) / 2);
+}
+
+.content-right{
+    background: #ffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post-right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted #cccccce9;
+}
+
+
+/*LINKS */
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: rgb(7, 82, 152);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+/*FOOTER */
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ffff;
+    color: rgb(20, 42, 62);
+}
+
+
+
+
